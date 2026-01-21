@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "Title": "Inception",
+    "Year": "2010",
+    "Rated": "PG-13",
+    "Released": "16 Jul 2010",
+    "Runtime": "148 min",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Director": "Christopher Nolan",
+    "Writer": "Christopher Nolan",
+    "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
+    "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster.",
+    "Language": "English, Japanese, French",
+    "Country": "United States, United Kingdom",
+    "Awards": "Won 4 Oscars. 159 wins & 220 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "87%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "74/100"
+      }
+    ],
+    "Metascore": "74",
+    "imdbRating": "8.8",
+    "imdbVotes": "2,767,518",
+    "imdbID": "tt1375666",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$292,587,330",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 2,
+    "Title": "Batman",
+    "Year": "1989",
+    "Rated": "PG-13",
+    "Released": "23 Jun 1989",
+    "Runtime": "126 min",
+    "Genre": "Action, Adventure",
+    "Director": "Tim Burton",
+    "Writer": "Bob Kane, Sam Hamm, Warren Skaaren",
+    "Actors": "Michael Keaton, Jack Nicholson, Kim Basinger",
+    "Plot": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+    "Language": "English, French, Spanish",
+    "Country": "United States, United Kingdom",
+    "Awards": "Won 1 Oscar. 13 wins & 30 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYzZmZWViM2EtNzhlMi00NzBlLWE0MWEtZDFjMjk3YjIyNTBhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "77%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "69/100"
+      }
+    ],
+    "Metascore": "69",
+    "imdbRating": "7.5",
+    "imdbVotes": "427,888",
+    "imdbID": "tt0096895",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$251,409,241",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 3,
+    "Title": "Lost",
+    "Year": "2004–2010",
+    "Rated": "TV-14",
+    "Released": "22 Sep 2004",
+    "Runtime": "44 min",
+    "Genre": "Adventure, Drama, Fantasy",
+    "Director": "N/A",
+    "Writer": "J.J. Abrams, Jeffrey Lieber, Damon Lindelof",
+    "Actors": "Jorge Garcia, Josh Holloway, Yunjin Kim",
+    "Plot": "The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.",
+    "Language": "English, Portuguese, Spanish, Arabic, French, Korean, German, Latin, Russian, Japanese",
+    "Country": "United States",
+    "Awards": "Won 10 Primetime Emmys. 118 wins & 418 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.3/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "80%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.3",
+    "imdbVotes": "657,937",
+    "imdbID": "tt0411008",
+    "Type": "series",
+    "totalSeasons": "6",
+    "Response": "True"
+  },
+  {
+    "id": 4,
+    "Title": "The ABC Murders",
+    "Year": "2018",
+    "Rated": "TV-14",
+    "Released": "01 Feb 2019",
+    "Runtime": "2 min",
+    "Genre": "Crime, Drama, Mystery",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "John Malkovich, Eamon Farren, Michael Shaeffer",
+    "Plot": "In 1933, retired detective Hercule Poirot is targeted by a taunting killer who sends letters signed \"ABC\", which Poirot must decode in order to discover the identity of the murderer.",
+    "Language": "English, French",
+    "Country": "United Kingdom",
+    "Awards": "3 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMmZiMzMwNWMtOWFiYy00OWM5LWJlYjQtZmMyZTkwN2E1ZjFhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.6",
+    "imdbVotes": "12,676",
+    "imdbID": "tt8463714",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
+  },
+  {
+    "id": 5,
+    "Title": "Max",
+    "Year": "2015",
+    "Rated": "PG",
+    "Released": "26 Jun 2015",
+    "Runtime": "111 min",
+    "Genre": "Adventure, Drama, Family",
+    "Director": "Boaz Yakin",
+    "Writer": "Boaz Yakin, Sheldon Lettich",
+    "Actors": "Thomas Haden Church, Josh Wiggins, Luke Kleintank",
+    "Plot": "A military dog that helped American Marines in Afghanistan returns to the United States and is adopted by his handler's family after suffering a traumatic experience.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjA2Nzk0NzIyN15BMl5BanBnXkFtZTgwMjEyNTE5NDE@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "37%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "47/100"
+      }
+    ],
+    "Metascore": "47",
+    "imdbRating": "6.6",
+    "imdbVotes": "29,512",
+    "imdbID": "tt3369806",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$42,656,255",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 6,
+    "Title": "AAA",
+    "Year": "2021",
+    "Rated": "N/A",
+    "Released": "N/A",
+    "Runtime": "N/A",
+    "Genre": "Short",
+    "Director": "Arden Grier",
+    "Writer": "Arden Grier, Summer Rudas",
+    "Actors": "Christian A. Pierce, Summer Rudas",
+    "Plot": "N/A",
+    "Language": "English",
+    "Country": "N/A",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzVjNDg1NzktMjQ3Ny00NTA5LThjZGYtNjRjYTViZDU1MmU3XkEyXkFqcGdeQXVyMTA3MjA1ODU0._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt14316180",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 7,
+    "Title": "Spidi",
+    "Year": "2015",
+    "Rated": "N/A",
+    "Released": "30 Nov 2015",
+    "Runtime": "N/A",
+    "Genre": "Comedy",
+    "Director": "Denis Kramberger",
+    "Writer": "Slavko Kovacic (creator), Denis Kramberger (screenplay)",
+    "Actors": "Slavko Kovacic",
+    "Plot": "N/A",
+    "Language": "German",
+    "Country": "Austria",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt3733436",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 8,
+    "Title": "World War Z",
+    "Year": "2013",
+    "Rated": "PG-13",
+    "Released": "21 Jun 2013",
+    "Runtime": "116 min",
+    "Genre": "Action, Adventure, Horror",
+    "Director": "Marc Forster",
+    "Writer": "Matthew Michael Carnahan, Drew Goddard, Damon Lindelof",
+    "Actors": "Brad Pitt, Mireille Enos, Daniella Kertesz",
+    "Plot": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop a zombie pandemic that is toppling armies and governments and threatens to destroy humanity itself.",
+    "Language": "English, Spanish, Hebrew, Arabic",
+    "Country": "United States, United Kingdom",
+    "Awards": "3 wins & 25 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODg3ZTM2YWQtZDE5Ny00NGNiLTkzYjgtYWVlYjNkOTg5NDI1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "67%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "63/100"
+      }
+    ],
+    "Metascore": "63",
+    "imdbRating": "7.0",
+    "imdbVotes": "773,594",
+    "imdbID": "tt0816711",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$202,807,711",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 9,
+    "Title": "War",
+    "Year": "2007",
+    "Rated": "R",
+    "Released": "24 Aug 2007",
+    "Runtime": "103 min",
+    "Genre": "Action, Thriller",
+    "Director": "Philip G. Atwell",
+    "Writer": "Lee Anthony Smith, Gregory J. Bradley",
+    "Actors": "Jet Li, Jason Statham, Nadine Velazquez",
+    "Plot": "An FBI Agent seeks vengeance on a mysterious assassin known as \"Rogue\" who murdered his partner.",
+    "Language": "English, Mandarin, Japanese, Cantonese",
+    "Country": "Canada, United States",
+    "Awards": "1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTIwMjE2Mjc1MF5BMl5BanBnXkFtZTYwNzI0OTI3._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "36/100"
+      }
+    ],
+    "Metascore": "36",
+    "imdbRating": "6.2",
+    "imdbVotes": "100,162",
+    "imdbID": "tt0499556",
+    "Type": "movie",
+    "DVD": "05 Jun 2007",
+    "BoxOffice": "$22,486,409",
+    "Production": "New Glory Productions",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 10,
+    "Title": "Error",
+    "Year": "2006",
+    "Rated": "N/A",
+    "Released": "N/A",
+    "Runtime": "5 min",
+    "Genre": "Short, Comedy, Drama",
+    "Director": "Brent Larson, Jim Southard",
+    "Writer": "N/A",
+    "Actors": "Sandu Onu, Zach Anderson, John Boggs",
+    "Plot": "The saying goes, 'there is more than one way to skin a cat.' But is that always true? When solving all problems are all approaches equally valid? Or are there some things that can only be solved one way? This uniquely simple IT te...",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.3",
+    "imdbVotes": "21",
+    "imdbID": "tt1500186",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 11,
+    "Title": "Captain America: The First Avenger",
+    "Year": "2011",
+    "Rated": "PG-13",
+    "Released": "22 Jul 2011",
+    "Runtime": "124 min",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Director": "Joe Johnston",
+    "Writer": "Christopher Markus, Stephen McFeely, Joe Simon",
+    "Actors": "Chris Evans, Hugo Weaving, Samuel L. Jackson",
+    "Plot": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organiza...",
+    "Language": "English, Norwegian, French",
+    "Country": "United States",
+    "Awards": "4 wins & 50 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzUyM2YyY2MtNzNlMS00MWU5LTgxNjAtNzZlNmI2NjU2NDZlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "80%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "66/100"
+      }
+    ],
+    "Metascore": "66",
+    "imdbRating": "6.9",
+    "imdbVotes": "954,922",
+    "imdbID": "tt0458339",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$176,654,505",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id": 12,
+    "Title": "Hero",
+    "Year": "2002",
+    "Rated": "PG-13",
+    "Released": "27 Aug 2004",
+    "Runtime": "107 min",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "Yimou Zhang",
+    "Writer": "Feng Li, Yimou Zhang, Bin Wang",
+    "Actors": "Jet Li, Tony Leung Chiu-wai, Maggie Cheung",
+    "Plot": "A defense officer, Nameless, was summoned by the King of Qin regarding his success of terminating three warriors.",
+    "Language": "Mandarin",
+    "Country": "Hong Kong, China",
+    "Awards": "Nominated for 1 Oscar. 46 wins & 48 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTlkZWVjYzQtZmI1My00MGM2LTlmZjEtNjU1M2Y1MTRkNmZjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.9/10"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "85/100"
+      }
+    ],
+    "Metascore": "85",
+    "imdbRating": "7.9",
+    "imdbVotes": "192,049",
+    "imdbID": "tt0299977",
+    "Type": "movie",
+    "DVD": "06 Jan 2004",
+    "BoxOffice": "$53,710,019",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  {
+    "id":13,
+    "Title": "Ee Nagaraniki Emaindi",
+    "Year": "2018",
+    "Rated": "N/A",
+    "Released": "28 Jun 2018",
+    "Runtime": "122 min",
+    "Genre": "Comedy, Drama",
+    "Director": "Tharun Bhascker Dhaassyam",
+    "Writer": "Tharun Bhascker Dhaassyam",
+    "Actors": "Vishwak Sen, Sai Sushanth Reddy, Abhinav Gomatam",
+    "Plot": "The story is based on four childhood friends who go on a trip to Goa. Each have their own dream careers, and collaborate to make a short film.",
+    "Language": "Telugu",
+    "Country": "India",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzE5ZTRhYjctZjMyMi00NzcwLWI2OWYtMGQxZjYyNmNkMmIyXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+        {
+            "Source": "Internet Movie Database",
+            "Value": "8.0/10"
+        }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "4,366",
+    "imdbID": "tt8490894",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+},
+{
+    "id": 14,
+    "Title": "1",
+    "Year": "2013",
+    "Rated": "Not Rated",
+    "Released": "01 Oct 2013",
+    "Runtime": "112 min",
+    "Genre": "Documentary, Action, History",
+    "Director": "Paul Crowder",
+    "Writer": "Mark Monroe",
+    "Actors": "Michael Fassbender, Lewis Hamilton, Martin Brundle",
+    "Plot": "Set in the golden era of Grand Prix Racing '1' tells the story of a generation of charismatic drivers who raced on the edge, risking their lives during Formula 1's deadliest period, and the men who stood up and changed the sport f...",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxNDI5NTMxMF5BMl5BanBnXkFtZTgwMDMzMjg4MTE@._V1_SX300.jpg",
+    "Ratings": [
+        {
+            "Source": "Internet Movie Database",
+            "Value": "7.9/10"
+        }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.9",
+    "imdbVotes": "4,746",
+    "imdbID": "tt2518788",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+},
+{
+   "id": 15,
+    "Title": "John Wick: Chapter 4",
+    "Year": "2023",
+    "Rated": "R",
+    "Released": "24 Mar 2023",
+    "Runtime": "169 min",
+    "Genre": "Action, Crime, Thriller",
+    "Director": "Chad Stahelski",
+    "Writer": "Shay Hatten, Michael Finch, Derek Kolstad",
+    "Actors": "Keanu Reeves, Laurence Fishburne, George Georgiou",
+    "Plot": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "Language": "English, Japanese, Russian, French, Spanish, German, Latin, Cantonese, Arabic",
+    "Country": "United States, Germany",
+    "Awards": "38 wins & 51 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BY2Q2ZmI5ZjUtNWVhMC00YzJkLTlmYjMtY2RmZDhkNzEzYjZhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+        {
+            "Source": "Internet Movie Database",
+            "Value": "7.6/10"
+        },
+        {
+            "Source": "Rotten Tomatoes",
+            "Value": "94%"
+        },
+        {
+            "Source": "Metacritic",
+            "Value": "78/100"
+        }
+    ],
+    "Metascore": "78",
+    "imdbRating": "7.6",
+    "imdbVotes": "400,884",
+    "imdbID": "tt10366206",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$187,131,806",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+}
+]
