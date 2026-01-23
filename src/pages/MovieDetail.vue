@@ -16,9 +16,9 @@
 </script>
       
 <template>
-    <div v-if="id === ':id'">
+    <p v-if="id === ':id'">
         Please choose in Home page
-    </div>
+    </p>
     <ContactDetail 
       v-else 
     :contact="contactStore.detailContact"

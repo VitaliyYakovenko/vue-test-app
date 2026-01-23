@@ -32,12 +32,13 @@ export const useContactStore = defineStore("contactStore", () => {
    };
 
     const getDetailInform = async function (id) {
-    
-        const findContact = selectedContacts.value.find(contact => contact.id === id)
+        if(id === ":id") return
+
+        const findContact = selectedContacts.value.find(contact => contact.id === id);
 
         if(findContact) {
           detailContact.value = findContact;
-          return;
+          return
         }
         
         loading.value = true;
