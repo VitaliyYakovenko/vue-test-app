@@ -1,25 +1,31 @@
 <script setup>
 
-  import {ref,onMounted } from "vue";
-  import getAllMovies from "@/utils/getAllMovies";
-  import MoviesList from "@/components/MoviesList.vue";
- 
+  import {onMounted } from "vue";
+  import Movie from "@/components/Movie.vue";
+  import {useMovieStore} from "../store/movieStore";
+  
+  const movieStore = useMovieStore();
+    
 
- const moviesData = ref([]);
-
-  onMounted(() => {
-     getAllMovies().then(data => {
-        moviesData.value = data || []
-     })   
+  onMounted(async () => {
+       await movieStore.getAllMovies();
   });
- 
+
 
  
 </script>
 
 <template>
     <h1>HOME Page</h1>
-    <MoviesList :movies="moviesData"/>
+    <ul>
+      <Movie v-for="movie in movieStore.movies" 
+      :key="movie.id"
+      :movie="movie"
+      />
+    </ul>
 </template>
 
 <style scoped></style>
+
+
+
