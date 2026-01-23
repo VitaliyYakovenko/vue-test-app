@@ -1,14 +1,14 @@
 <template>
     <li>
-        <p>Title: {{ movie.name }}</p>
-        <p>CreatedAt: {{ movie.createdAt }}</p>
-        <button @click="$router.push(`/${movie.id}`)">Details</button>
+        <p>Title: {{ contact.name }}</p>
+        <p>CreatedAt: {{ contact.createdAt }}</p>
+        <button @click="$router.push(`/${contact.id}`)">Details</button>
     </li>
 
 </template>
 <script setup>
  const props = defineProps({
-    movie: Object,
+    contact: Object,
     required: true
  });
 

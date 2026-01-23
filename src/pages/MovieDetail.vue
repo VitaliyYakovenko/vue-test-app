@@ -1,24 +1,28 @@
 <script setup>
     import { useRoute } from 'vue-router';
     import { onMounted } from 'vue';   
-    import { useMovieStore } from '../store/movieStore';
+    import { useContactStore } from '@/store/contactStore';
     import ContactDetail from '../components/ContactDetail.vue';
 
-    const movieStore = useMovieStore();
+    const contactStore = useContactStore();
     const route = useRoute();
     const id = route.params.id;
     
   
     onMounted( async () => {
-         await movieStore.getDetailInform(id);
+         await contactStore.getDetailInform(id);
     })
 
 </script>
       
 <template>
-      <ContactDetail 
-      :contact="movieStore.detailContact"
-      />
+    <div v-if="id === ':id'">
+        Please choose in Home page
+    </div>
+    <ContactDetail 
+      v-else 
+    :contact="contactStore.detailContact"
+    />
 </template>
 
 <style></style> 

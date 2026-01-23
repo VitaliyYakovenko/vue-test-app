@@ -3,26 +3,26 @@ import {defineStore} from "pinia"
 const BASE_URL = "mockapi.io/v1";
 const API_KEY = `67e2b45797fc65f535373bb9`;
 
-export const useMovieStore = defineStore("movieStore", () => {
-   const movies = ref([]);
+export const useContactStore = defineStore("contactStore", () => {
+   const contacts = ref([]);
    const detailContact = ref({});
    const selectedContacts = ref([]);
    const loading = ref(false);
 
 
-   const getAllMovies = async function() {
+   const getAllContact = async function() {
    
-    if (movies.value.length > 0) return;
+    if (contacts.value.length > 0) return;
 
     try {
     loading.value = true;
-    const resp = await fetch(`https://${API_KEY}.${BASE_URL}/movies/`);
+    const resp = await fetch(`https://${API_KEY}.${BASE_URL}/contacts/`);
   
       if(!resp.ok) {
              throw new Error("Failed response");
       } else {
         const data = await resp.json();
-        movies.value = data;
+        contacts.value = data;
       }
    } catch(err) {
       console.error(err);
@@ -31,7 +31,8 @@ export const useMovieStore = defineStore("movieStore", () => {
    }
    };
 
-    const getDetailInform = async function (id = "") {
+    const getDetailInform = async function (id) {
+    
         const findContact = selectedContacts.value.find(contact => contact.id === id)
 
         if(findContact) {
@@ -42,7 +43,7 @@ export const useMovieStore = defineStore("movieStore", () => {
         loading.value = true;
         
         try{
-          const resp = await fetch(`https://${API_KEY}.${BASE_URL}/movies/${id}`)
+          const resp = await fetch(`https://${API_KEY}.${BASE_URL}/contacts/${id}`)
 
           if(!resp.ok) {
             throw new Error("Failed response")
@@ -60,5 +61,5 @@ export const useMovieStore = defineStore("movieStore", () => {
     }
     
 
-  return {movies ,detailContact, loading, getAllMovies,getDetailInform};
+  return {contacts ,detailContact, loading, getAllContact,getDetailInform};
 });

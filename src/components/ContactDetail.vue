@@ -2,6 +2,7 @@
       <div>
          <p>{{ contact.name }}</p>
          <p>{{ contact.createdAt }}</p>
+         <img width="400" :src="contact.avatar" :alt="contact.name"/>
       </div>
 </template>
 
