@@ -22,10 +22,10 @@
 </script>
 
 <template>
-    <main class="main">
-    <h1 class="title">Home page</h1>
+    <main>
+    <h1 class="text-3xl text-teal-700 text-center w-100 mx-auto">Home page</h1>
     <Loader v-if="contactStore.isLoading"/>
-    <ul class="contats" v-else>
+    <ul v-else>
       <Contact v-for="contact in contactStore.contacts" 
       :key="contact.id"
       :contact="contact"
@@ -35,7 +35,7 @@
 </template>
 
 <style>
-.title {
+/* .title {
   text-align: center;
   font-size: 36px;
   color: teal;
@@ -53,7 +53,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 </style>
 

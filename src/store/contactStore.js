@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import {defineStore} from "pinia"
+import {defineStore} from "pinia";
 const BASE_URL = "mockapi.io/v1";
 const API_KEY = `67e2b45797fc65f535373bb9`;
 

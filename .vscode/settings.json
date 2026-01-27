@@ -6,5 +6,12 @@
     "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .oxlint*, oxlint*, .prettier*, prettier*, .editorconfig",
     "css.lint.unknownAtRules": "ignore"
   },
-  
+   "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "vue": "vue",
+    "svelte": "svelte"
+  },
+  "tailwindCSS.experimental.configFile": "src/main.css"
 }
