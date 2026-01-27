@@ -16,8 +16,8 @@
 </script>
 
 <template>
-    <main class="main">
-        <Form @create="createContact"/>
+    <main class="bg-red-500">
+        <Form  @create="createContact"/>
         <ContactList 
         @delete="deleteContact" 
         :contacts="contacts"
@@ -25,9 +25,9 @@
     </main>
 </template>
 
-<style scoped>
-.main {
-    width: 1200px;
-    margin: 0 auto;
-}
+<style>
+
 </style>
+
+
+<!-- class="bg-red-500 max-w-[1200px] mx-auto p-6" -->

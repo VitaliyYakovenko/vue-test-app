@@ -40,9 +40,10 @@ export const useContactStore = defineStore("contactStore", () => {
           return
         }
         
-        isLoading.value = true;
-        
+    
         try{
+          isLoading.value = true;
+           
           const resp = await fetch(`https://${API_KEY}.${BASE_URL}/contacts/${id}`)
 
           if(!resp.ok) {

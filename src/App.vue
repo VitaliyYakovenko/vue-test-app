@@ -13,7 +13,7 @@
 
 </script>
 
-<style scoped>
+<style>
 
 .header {
   border: 4px solid teal;

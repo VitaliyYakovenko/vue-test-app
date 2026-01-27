@@ -15,8 +15,8 @@
         phone: phone.value
        }
        );
-        name.value = "",
-        phone.value = ""
+        name.value = "";
+        phone.value = "";
    };
    
  
@@ -25,7 +25,7 @@
   </script>
 <template>
     <form @submit.prevent="submit">
-        <input v-model="name" type="text"/>
+        <input  v-model="name" type="text"/>
         <br/>
         <input v-model="phone" type="number"/>
         <br/>
