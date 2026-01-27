@@ -1,6 +1,10 @@
 <template>
   <div class="w-300 m-auto">
-  <header class="border-3 border-teal-500 py-[20px] px-[10px] rounded-[22px] mb-6 bg-orange-500">
+  <header class="border-3 
+  border-teal-500 
+  py-[20px] px-[10px] 
+  rounded-[22px] 
+  mb-6 bg-orange-500">
  <nav>
     <router-link class="text-teal-900 
     hover:text-green-600 

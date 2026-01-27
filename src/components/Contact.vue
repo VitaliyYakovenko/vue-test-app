@@ -1,8 +1,26 @@
 <template>
-    <li class="d-flex">
-        <p class="contact__name">Name: {{ contact.name }}</p>
-        <p class="contact__date">Creation date: {{ contact.createdAt }}</p>
-        <button class="contact__btn" @click="$router.push(`/contact/${contact.id}`)">Details</button>
+    <li class="
+    border-3
+    border-teal-500
+    rounded-[12px]
+    mb-8
+    last:mb-0
+    w-120
+    p-[12px]
+    ">
+        <p class="mb-3
+        text-2xl
+        ">Name: {{ contact.name }}</p>
+        <p class="mb-3
+        text-2xl
+        ">Creation date: {{ contact.createdAt }}</p>
+        <button class="border 
+        block
+        ml-auto
+        p-[6px]
+        cursor-pointer
+        rounded-[6px]" 
+        @click="$router.push(`/contact/${contact.id}`)">Details</button>
     </li>
 </template>
 
@@ -15,33 +33,4 @@
  });
 
 </script>
-<style scoped>
-
-/* .contact__item {
-    font-size: 20px;
-
-    padding: 20px;
-    border: 2px solid teal;
-    margin-bottom: 20px;
-}
-
-.contact__name {
-    margin-bottom: 10px;
-}
-
-.contact__date {
-    margin-bottom: 10px;
-}
-
-.contact__btn {
-   border-radius: 8px;
-   border-color: teal;
-   background-color: transparent;
-   cursor: pointer;
-
-   display: block; 
-   padding: 10px 8px;
-   margin-left: auto;
-} */
-
-</style>
+<style scoped></style>

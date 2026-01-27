@@ -25,7 +25,7 @@
     <main class="w-300 mx-auto">
     <h1 class="text-5xl text-teal-700 text-center mb-12">Home page</h1>
     <Loader v-if="contactStore.isLoading"/>
-    <ul v-else>
+    <ul class="flex flex-col items-center" v-else>
       <Contact v-for="contact in contactStore.contacts" 
       :key="contact.id"
       :contact="contact"
