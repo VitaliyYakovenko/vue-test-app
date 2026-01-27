@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 const Home =() => import("../pages/Home.vue");
 const ContactDetail = () => import("../pages/ContactDetail.vue");
+const FormPage = () => import("../pages/FormPage.vue");
 
 
 const routes = [
@@ -14,7 +15,15 @@ const routes = [
     name: "contact-detail",
     component:ContactDetail,
     props: true
-  }
+  },
+   {
+    path: "/contact/form",
+    name: "contact-form",
+    component: FormPage,
+    props: true
+   }
+
+  
 ];
 
 const router = createRouter({

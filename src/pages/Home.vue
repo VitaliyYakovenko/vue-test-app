@@ -34,7 +34,7 @@
     </main>
 </template>
 
-<style scoped>
+<style>
 .title {
   text-align: center;
   font-size: 36px;
