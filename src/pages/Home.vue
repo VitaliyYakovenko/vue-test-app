@@ -23,7 +23,7 @@
 
 <template>
     <main class="w-300 mx-auto">
-    <h1 class="text-3xl text-teal-700 text-center mb-12">Home page</h1>
+    <h1 class="text-5xl text-teal-700 text-center mb-12">Home page</h1>
     <Loader v-if="contactStore.isLoading"/>
     <ul v-else>
       <Contact v-for="contact in contactStore.contacts" 

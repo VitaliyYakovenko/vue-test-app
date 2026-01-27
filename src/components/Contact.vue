@@ -1,5 +1,5 @@
 <template>
-    <li class="contact__item">
+    <li class="d-flex">
         <p class="contact__name">Name: {{ contact.name }}</p>
         <p class="contact__date">Creation date: {{ contact.createdAt }}</p>
         <button class="contact__btn" @click="$router.push(`/contact/${contact.id}`)">Details</button>
@@ -17,7 +17,7 @@
 </script>
 <style scoped>
 
-.contact__item {
+/* .contact__item {
     font-size: 20px;
 
     padding: 20px;
@@ -42,6 +42,6 @@
    display: block; 
    padding: 10px 8px;
    margin-left: auto;
-}
+} */
 
 </style>
