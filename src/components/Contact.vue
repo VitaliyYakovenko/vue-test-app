@@ -5,7 +5,6 @@
     rounded-[12px]
     mb-8
     last:mb-0
-    w-120
     p-[12px]
     ">
         <p class="mb-3

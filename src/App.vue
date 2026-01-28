@@ -1,5 +1,5 @@
 <template>
-  <div class="w-300 m-auto">
+  <div class="container m-auto">
   <header class="border-3 
   border-teal-500 
   py-[20px] px-[10px] 

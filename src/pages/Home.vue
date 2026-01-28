@@ -22,7 +22,7 @@
 </script>
 
 <template>
-    <main class="w-300 mx-auto">
+    <main class="container mx-auto px-[10px]">
     <h1 class="text-5xl text-teal-700 text-center mb-12">Home page</h1>
     <Loader v-if="contactStore.isLoading"/>
     <ul class="flex flex-col items-center" v-else>
