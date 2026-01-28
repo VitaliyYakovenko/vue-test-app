@@ -7,6 +7,7 @@
     last:mb-0
     p-[12px]
     ">
+    
         <p class="mb-3
         text-2xl
         ">Name: {{ contact.name }}</p>
