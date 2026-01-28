@@ -6,6 +6,13 @@
    const contacts = ref([]);
    
    const createContact = (data) => {
+       const {name, phone} = data;
+       
+       if(name === "" || phone === "") {
+        alert("Please enter your name or phone")
+        return
+       }
+
        contacts.value.push(data);
    } 
 
@@ -16,7 +23,7 @@
 </script>
 
 <template>
-    <main class="bg-red-500">
+    <main class="container mx-auto px-[10px]">
         <Form  @create="createContact"/>
         <ContactList 
         @delete="deleteContact" 
@@ -29,5 +36,3 @@
 
 </style>
 
-
-<!-- class="bg-red-500 max-w-[1200px] mx-auto p-6" -->

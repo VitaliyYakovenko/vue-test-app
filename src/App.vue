@@ -1,8 +1,9 @@
 <template>
-  <div class="container m-auto">
+  <div class="container mx-auto px-[5px]">
   <header class="border-3 
-  border-teal-500 
-  py-[20px] px-[10px] 
+  border-teal-500
+  px-[10px] 
+  py-[20px]
   rounded-[22px] 
   mb-6 bg-orange-500">
  <nav>
