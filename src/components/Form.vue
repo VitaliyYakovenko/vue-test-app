@@ -26,6 +26,7 @@
   </script>
 <template>
     <form class="block 
+        mb-[26px]
         text-start
         mx-auto text-center 
         border

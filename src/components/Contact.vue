@@ -1,7 +1,7 @@
 <template>
     <li class="
     border-3
-    border-teal-500
+    border-black-500
     rounded-[12px]
     bg-teal-500
     mb-8
