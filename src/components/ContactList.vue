@@ -19,6 +19,7 @@
   
 </script>
 
+
 <template>
     <ul>
         <li class="mx-auto mb-[16px] w-[300px] border-3 p-4 rounded-2xl
