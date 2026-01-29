@@ -1,8 +1,8 @@
 <template>
-      <div class="contact">
-         <h1 class="contact__name">{{ contact.name }}</h1>
-         <p class="contact__date">{{ contact.createdAt }}</p>
-         <img class="contact__img" width="400" :src="contact.avatar" :alt="contact.name"/>
+      <div class="flex flex-col items-center mt-[40px]">
+         <h1 class="text-[36px] text-teal-800 mb-[20px]">{{ contact.name }}</h1>
+         <p class="text-[36px] text-teal-800 mb-[20px]">{{ contact.createdAt }}</p>
+         <img class="rounded-[33px]"  width="400" :src="contact.avatar" :alt="contact.name"/>
       </div>
 </template>
 
@@ -16,27 +16,4 @@
    
 </script>
 
-<style scoped>
- .contact {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-top: 40px;
- }
-
- .contact__name {
-   font-size: 36px;
-   color: teal;
-
-   margin-bottom: 20px;
- }
-
-
- .contact__date {
-   font-size: 30px;
-   color: teal;
-
-   margin-bottom: 20px;
- }
-
-</style>
+<style></style>
